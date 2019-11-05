@@ -1,0 +1,8 @@
+uuid: ccf57483-47bf-41ef-94a1-659e63c997f3
+langcode: en
+status: true
+dependencies: {  }
+id: user_comments
+label: 'User Comments'
+target_entity_type_id: node
+description: ''

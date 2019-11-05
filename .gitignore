@@ -22,3 +22,6 @@
 
 # Ignore .env files as they are personal
 /.env
+ # Ignore configuration files
+/config/sync/google_analytics.settings.yml
+/config/sync/shield.settings.yml

@@ -1,0 +1,20 @@
+uuid: 549b5c70-9708-4ab1-8e97-4ac3adb98ecf
+langcode: en
+status: true
+dependencies: {  }
+name: event_teaser_image_style
+label: 'Event Teaser Image Style'
+effects:
+  e37027da-8e43-46b1-ac31-3a4477d660f5:
+    uuid: e37027da-8e43-46b1-ac31-3a4477d660f5
+    id: image_desaturate
+    weight: 1
+    data: {  }
+  e11a7b74-740d-4429-9948-1f1a39b4b074:
+    uuid: e11a7b74-740d-4429-9948-1f1a39b4b074
+    id: image_crop
+    weight: 2
+    data:
+      width: 350
+      height: 250
+      anchor: center-center

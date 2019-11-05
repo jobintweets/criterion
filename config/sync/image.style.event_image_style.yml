@@ -1,0 +1,14 @@
+uuid: 118854e1-170b-4362-af43-b3b5a16852d1
+langcode: en
+status: true
+dependencies: {  }
+name: event_image_style
+label: 'Event Image Style'
+effects:
+  58aebb69-5d47-46fd-9465-2fcc9745c58d:
+    uuid: 58aebb69-5d47-46fd-9465-2fcc9745c58d
+    id: image_resize
+    weight: 1
+    data:
+      width: 650
+      height: 450

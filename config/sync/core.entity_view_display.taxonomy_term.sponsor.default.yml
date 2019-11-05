@@ -1,0 +1,33 @@
+uuid: 8a9c3eea-cd6c-4292-9e33-df401cc8397a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.sponsor.field_logo
+    - image.style.thumbnail
+    - taxonomy.vocabulary.sponsor
+  module:
+    - image
+    - text
+id: taxonomy_term.sponsor.default
+targetEntityType: taxonomy_term
+bundle: sponsor
+mode: default
+content:
+  description:
+    label: hidden
+    type: text_default
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_logo:
+    weight: 1
+    label: above
+    settings:
+      image_style: thumbnail
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden: {  }

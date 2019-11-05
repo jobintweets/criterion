@@ -1,0 +1,8 @@
+uuid: c5a4a055-4b19-4899-92b6-2e74f686eb1b
+langcode: en
+status: true
+dependencies: {  }
+name: Sponsor
+vid: sponsor
+description: 'Tags for all the sponsors'
+weight: 0
